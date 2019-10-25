@@ -6,3 +6,29 @@
 .card-wrap:hover {
     box-shadow: 5px 5px 5px 5px grey;
 }
+
+.card-wrap {
+    min-width: 300px;
+    min-height: 350px;
+}
+
+@media only screen and (max-width: 968px) {
+    .card-wrap {
+        min-width: 35vw;
+        min-height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card-wrap {
+        min-width: 35vw;
+        min-height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .card-wrap {
+        min-width: 35vw;
+        min-height: 45vh;
+    }
+}
